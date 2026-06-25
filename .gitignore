@@ -1,0 +1,24 @@
+# Node dependencies
+web/node_modules/
+web/dist/
+web/.eslintcache
+web/.next/
+web/out/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.joblib
+*.pkl
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
