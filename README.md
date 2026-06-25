@@ -90,6 +90,24 @@ git push -u origin main
 6. Under **Branch**, select `gh-pages` and `/ (root)`, then click **Save**.
 7. In a few seconds, your site will be live at `https://<YOUR-GITHUB-USERNAME>.github.io/<YOUR-REPO-NAME>/`!
 
+
+---
+
+## ⚡ 4. Deploy to Vercel (Alternative Hosting)
+
+Deploying to Vercel is extremely fast and requires zero configuration because of the included `vercel.json` file.
+
+### Step 1: Push Code to GitHub
+Ensure your repository is pushed to GitHub as detailed in section 3 (Step 2).
+
+### Step 2: Import Project to Vercel
+1. Log in to [Vercel](https://vercel.com).
+2. Click **Add New** > **Project**.
+3. Import your GitHub repository (`stock-bot_zenixy`).
+4. Vercel will automatically read the [vercel.json](file:///D:/stock-bot_zenixy/vercel.json) file and configure the Vite React frontend inside the `web/` subfolder.
+5. Click **Deploy**.
+6. Your website will be live at `https://<PROJECT-NAME>.vercel.app` in under a minute!
+
 ---
 
 ## 🧠 Algorithmic Indicators Computed
