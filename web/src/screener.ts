@@ -577,11 +577,4 @@ export async function analyzeStock(
 }
 
 // Built-in stocks list from app.py
-export const GLOBAL_STOCK_LIST = [
-  'AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'META', 'NVDA', 'NFLX', 'AMD', 'INTC',
-  'CRM', 'ORCL', 'ADBE', 'PYPL', 'UBER', 'SHOP', 'PLTR', 'COIN', 'RIVN', 'SOFI',
-  'JPM', 'BAC', 'WFC', 'GS', 'MS', 'V', 'MA', 'AXP', 'UNH', 'JNJ', 'PFE', 'MRNA',
-  'WMT', 'PG', 'KO', 'PEP', 'COST', 'HD', 'NKE', 'DIS', 'XOM', 'CVX', 'SLB',
-  'BA', 'CAT', 'DE', 'GE', 'HON', 'UPS', 'FDX', 'ENPH', 'FSLR', 'TSM', 'ASML',
-  'AVGO', 'QCOM', 'MU', 'MSTR', 'RIOT', 'MARA', 'SPY', 'QQQ', 'IWM', 'ARKK'
-];
+export { GLOBAL_STOCK_LIST } from './stock_list';
